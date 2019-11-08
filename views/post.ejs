@@ -1,4 +1,6 @@
 <%- include("partials/header.ejs") -%>
+<% if(post){ %>
 <h1><%=post.title %></h1>
-<p><%=post.body %></p>
+<p><%=post.post %></p>
+<% } %>
 <%- include("partials/footer.ejs") -%>

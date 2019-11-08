@@ -7,12 +7,20 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "10.16.3"
+    },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "loadash": "^1.0.0",
+<<<<<<< HEAD
+    "lodash": "^4.17.11",
+    "mongoose": "^5.7.8",
+=======
     "lodash": "^4.17.13",
+>>>>>>> 9b5ef2128f28caf9a9b774de49feadfc71e1301c
     "nodemon": "^1.19.4"
   },
   "description": ""
